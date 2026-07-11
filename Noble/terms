@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Noble — Terms of Use</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px;
+         font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         color: #1a1a1a; background: #fff; }
+  @media (prefers-color-scheme: dark) { body { color: #e6e6e6; background: #121212; } a { color: #7aa2ff; } }
+  h1 { font-size: 28px; margin-bottom: 4px; }
+  h2 { font-size: 20px; margin-top: 32px; }
+  .meta { color: #888; font-size: 14px; margin-bottom: 24px; }
+  ul { padding-left: 22px; }
+  a { color: #3b5bdb; }
+</style>
+</head>
+<body>
+<h1>Terms of Use</h1>
+<p class="meta">For the Noble app &middot; Effective date: July 11, 2026</p>
+
+<p>These Terms of Use ("Terms") govern your use of the Noble app ("Noble", "we", "us").
+   By downloading or using Noble, you agree to these Terms. If you do not agree, do not
+   use the app.</p>
+
+<h2>License</h2>
+<p>We grant you a personal, non-exclusive, non-transferable, revocable license to use
+   Noble for your own personal, non-commercial learning.</p>
+
+<h2>Accounts</h2>
+<p>Noble requires an account, created through Sign in with Apple or Google Sign-In. You
+   are responsible for activity under your account. You may delete your account at any
+   time from Profile &rarr; Delete Account.</p>
+
+<h2>Noble Pro subscriptions</h2>
+<p>Noble offers an optional auto-renewable subscription, "Noble Pro," which unlocks all
+   lessons, unlimited energy, unlimited reviews, and premium themes. It is available in
+   the following plans:</p>
+<ul>
+  <li>Monthly</li>
+  <li>Every 3 months</li>
+  <li>Yearly</li>
+</ul>
+<p>The current price of each plan is shown in the app and on the App Store before you
+   purchase. The following terms apply to all plans:</p>
+<ul>
+  <li>Payment is charged to your Apple ID account upon confirmation of purchase.</li>
+  <li>The subscription <strong>automatically renews</strong> at the then-current price
+      unless it is canceled at least 24 hours before the end of the current period.</li>
+  <li>Your account is charged for renewal within 24 hours prior to the end of the current
+      period.</li>
+  <li>You can manage or cancel your subscription at any time in your App Store account
+      settings (Apple ID &rarr; Subscriptions). Deleting the app does not cancel your
+      subscription.</li>
+  <li>If a free trial or introductory offer is provided, any unused portion is forfeited
+      when you purchase a subscription, where applicable.</li>
+  <li>Purchases and refunds are handled by Apple in accordance with the
+      <a href="https://www.apple.com/legal/internet-services/itunes/">App Store Terms</a>.
+      As the developer, we cannot process refunds directly.</li>
+</ul>
+
+<h2>Acceptable use</h2>
+<p>You agree not to misuse Noble, including by attempting to access it in an unauthorized
+   way, interfering with its operation, reverse-engineering it, or using it to violate any
+   law.</p>
+
+<h2>Content and intellectual property</h2>
+<p>Noble and its content — including lessons, text, images, and software — are owned by us
+   or our licensors and are protected by intellectual property laws. The educational
+   content is provided for general learning and may be simplified; we do not guarantee it
+   is complete, current, or free of errors.</p>
+
+<h2>Disclaimers</h2>
+<p>Noble is provided "as is" and "as available," without warranties of any kind, whether
+   express or implied. We do not warrant that the app will be uninterrupted, error-free,
+   or that content is accurate.</p>
+
+<h2>Limitation of liability</h2>
+<p>To the maximum extent permitted by law, we will not be liable for any indirect,
+   incidental, special, consequential, or punitive damages arising from your use of Noble.</p>
+
+<h2>Changes to these Terms</h2>
+<p>We may update these Terms from time to time. Material changes will be reflected by
+   updating the effective date above. Continued use of Noble after changes take effect
+   constitutes acceptance.</p>
+
+<h2>Contact</h2>
+<p>Questions about these Terms? Email
+   <a href="mailto:YOUR_SUPPORT_EMAIL">YOUR_SUPPORT_EMAIL</a>.</p>
+</body>
+</html>
