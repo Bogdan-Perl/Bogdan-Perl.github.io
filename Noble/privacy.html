@@ -19,7 +19,7 @@
 </head>
 <body>
 <h1>Privacy Policy</h1>
-<p class="meta">For the Noble app &middot; Effective date: July 11, 2026</p>
+<p class="meta">For the Noble app &middot; Effective date: November 26, 2026</p>
 
 <p>This Privacy Policy explains what information the Noble app ("Noble", "we", "us")
 collects, how we use it, and the choices you have. By using Noble you agree to this policy.</p>
@@ -37,9 +37,19 @@ collects, how we use it, and the choices you have. By using Noble you agree to t
   <li><strong>Subscription data.</strong> Your Noble Pro subscription status and purchase
       history. Payments are processed by Apple; we never receive or store your payment
       card details.</li>
+  <li><strong>App usage data.</strong> How you use Noble, such as which screens you open,
+      lessons you start and finish, questions you answer and whether they were correct,
+      onboarding steps, and when the upgrade screen is shown or a purchase is made. This
+      comes with basic technical details: app version, device model, operating system,
+      approximate country, and an app instance identifier linked to your account
+      identifier.</li>
+  <li><strong>Crash and diagnostic data.</strong> If the app crashes, a crash report
+      with technical details about the crash, your device, and the app's state at the
+      time, linked to your account identifier so we can find and fix the problem.</li>
 </ul>
-<p>Noble does <strong>not</strong> include third-party advertising or tracking, and does
-   not track you across other apps or websites.</p>
+<p>Noble does <strong>not</strong> include third-party advertising, does not use your
+   device's advertising identifier, and does not track you across other companies' apps or
+   websites. Usage and crash data are used only to understand and improve Noble.</p>
 
 <h2>How we use your information</h2>
 <ul>
@@ -47,16 +57,23 @@ collects, how we use it, and the choices you have. By using Noble you agree to t
   <li>To sync your account and progress across your devices.</li>
   <li>To personalize your experience (for example, surfacing lessons matching your interests).</li>
   <li>To manage your Noble Pro subscription and entitlements.</li>
+  <li>To understand how Noble is used (for example, where people stop during a lesson)
+      so we can improve lessons and features.</li>
+  <li>To find and fix crashes and bugs.</li>
   <li>To send the local reminder notifications you opt into (these are scheduled on your
       device; we do not operate a remote push server).</li>
 </ul>
 
 <h2>How your information is stored and shared</h2>
 <p>Your account and learning data are stored using Google Firebase (Authentication,
-   Cloud Firestore, and Cloud Storage), operating on Google Cloud infrastructure.
+   Cloud Firestore, and Cloud Storage), operating on Google Cloud infrastructure. Usage
+   data is collected with Google Analytics for Firebase and crash reports with Firebase
+   Crashlytics.
    We share information only with the service providers needed to run Noble:</p>
 <ul>
-  <li><strong>Google Firebase</strong> — data storage and authentication.</li>
+  <li><strong>Google Firebase</strong> — data storage, authentication, app usage analytics
+      (Google Analytics for Firebase), and crash reporting (Firebase Crashlytics). See
+      <a href="https://firebase.google.com/support/privacy">Firebase's privacy information</a>.</li>
   <li><strong>Apple</strong> and <strong>Google</strong> — to authenticate your sign-in.</li>
   <li><strong>Apple</strong> — to process subscription payments through the App Store.</li>
 </ul>
