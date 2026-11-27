@@ -38,18 +38,18 @@
   .badge { display: inline-block; line-height: 0; }
   .badge img { height: 54px; width: auto; }
   .free { margin: 8px 0 0; font-size: 13px; opacity: .75; }
+  /* Three screenshots side by side, each as large as the space allows:
+     a third of the width, or the free height (screenshots are 1320x2868). */
   .shots {
-    flex: 1 1 auto; min-height: 0; display: flex; justify-content: center; align-items: flex-end;
-    gap: 10px; padding-top: 16px; overflow: hidden;
+    flex: 1 1 auto; min-height: 0; display: flex; justify-content: center; align-items: center;
+    gap: 10px; padding-top: 16px; container-type: size;
   }
   .shots img {
-    height: 100%; max-height: 420px; width: auto; min-width: 0; border-radius: 14px;
-    box-shadow: 0 8px 22px rgba(0,0,0,.35); object-fit: contain;
+    width: min(calc((100cqw - 20px) / 3), calc(100cqh * 0.4602), 200px); height: auto;
+    border-radius: 12px; box-shadow: 0 8px 22px rgba(0,0,0,.35);
   }
-  .shots img.side { opacity: .9; }
   footer { flex: 0 0 auto; font-size: 12px; padding-top: 10px; opacity: .7; }
   footer a { color: var(--cream); }
-  @media (max-width: 380px) { .shots img.side:last-child { display: none; } }
 </style>
 </head>
 <body>
@@ -64,9 +64,9 @@
 </div>
 
 <div class="shots" aria-label="App screenshots">
-  <img src="img/01-well-spent.jpg" alt="A painted lesson page in Noble">
-  <img class="side" src="img/02-listen.jpg" alt="The narrator reading a lesson aloud">
-  <img class="side" src="img/03-quizzes.jpg" alt="A quick question about the lesson">
+  <img src="img/01-timeline.jpg" alt="The timeline of lessons in Noble">
+  <img src="img/02-lesson.jpg" alt="A painted lesson page">
+  <img src="img/03-questions.jpg" alt="A quick question about the lesson">
 </div>
 
 <footer>
